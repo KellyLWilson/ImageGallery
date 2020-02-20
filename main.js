@@ -23,7 +23,7 @@ for (i = 1; i <= 5; i++) {
         if(btnClass === 'dark') {
           btn.setAttribute('class','light');
           btn.textContent = 'Lighten';
-          overlay.style.backgroundColor = 'rgba(0,0,0,0.5)';
+          overlay.style.backgroundColor = 'rgba(0,0,0,0.3)';
         } else {
           btn.setAttribute('class','dark');
           btn.textContent = 'Darken';
