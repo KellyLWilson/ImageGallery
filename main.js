@@ -8,7 +8,7 @@ const overlay = document.querySelector('.overlay');
 
 for (i = 1; i <= 5; i++) {
     const newImage = document.createElement('img');
-    newImage.setAttribute('src', "./images\/pic" + i + ".jpg");
+    newImage.setAttribute('src', "./images/pic" + i + ".jpg");
     thumbBar.appendChild(newImage);
     function displayThumb(clickedImage) {
         var imageThumb = clickedImage.target.getAttribute('src');
